@@ -1,0 +1,20 @@
+{
+  "name": "babylonjs-minimal",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7",
+    "vite-plugin-mkcert": "^1.9.0"
+  },
+  "dependencies": {
+    "@babylonjs/core": "5.17.1",
+    "@microsoft/teams-js": "^2.2.0"
+  }
+}
